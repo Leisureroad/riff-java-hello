@@ -9,7 +9,7 @@ import java.util.function.Function;
 @SpringBootApplication
 public class RiffJavaHelloApplication {
     @Bean
-    Function<String, String> sayhello() {
+    Function<String, String> hello() {
         return f->"Hello " + f;
     }
 

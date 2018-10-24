@@ -1,1 +1,1 @@
-handler = "sayhello&main=com.example.hello.RiffJavaHelloApplication"
+handler = "hello&main=com.example.hello.RiffJavaHelloApplication"
