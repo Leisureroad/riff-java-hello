@@ -10,7 +10,7 @@ import java.util.function.Function;
 public class RiffJavaHelloApplication {
     @Bean
     Function<String, String> sayHello() {
-        return String::toUpperCase;
+        return f->"Hello " + f;
     }
 
 	public static void main(String[] args) {
