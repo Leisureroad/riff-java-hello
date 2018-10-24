@@ -8,10 +8,10 @@ import java.util.function.Function;
 
 @SpringBootApplication
 public class RiffJavaHelloApplication {
-	@Bean
-	Function<String, String> sayHello() {
-		return f-> "Hello "+ f;
-	}
+    @Bean
+    Function<String, String> sayHello() {
+        return String::toUpperCase;
+    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(RiffJavaHelloApplication.class, args);
